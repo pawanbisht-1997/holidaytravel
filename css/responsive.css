@@ -1,0 +1,317 @@
+@media(max-width:575px){
+    .toggle-btn{
+        display: block;
+    }
+    .m-d-block{
+        display: block;
+    }
+    header{
+        padding: 8px 12px;
+    }
+
+    .maldives-body .resort-body .box {
+        width: 100%;
+    }
+    .menu {
+        position: absolute;
+        top: 100%;
+        background-color: #fff;
+        height: 100vh;
+        left: -100%;
+    padding: 15px;
+    width: 0;
+    opacity: 0;
+    visibility: hidden;
+    transition: all ease-in-out 0.5s;
+    }
+    .navbar .logo {
+        width: 38%;
+    }
+
+    .navbar .menu ul li {
+        display: block;
+        margin-left: 0;
+        margin-bottom: 8px;
+    }
+    .navbar .menu ul li a{
+        font-size: 16px;
+    }
+
+    .navbar .toggle-btn img{
+        width: 25px;
+    }
+    .navbar .menu.res-menu{
+        width: 100%;
+        right: 0;
+        left: 0;
+        opacity: 1;
+        visibility: visible;
+    }
+    h1 {
+        font-size: 27px;
+    }
+    .banner {
+        height: 40vh;
+    }
+    .banner .banner-content p {
+        color: #fff;
+        font-size: 14px;
+    }
+    .banner .banner-content .glbl-btn {
+        padding: 10px 10px;
+        font-size: 15px;
+        width: 55%;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .banner .banner-content {
+        
+            padding: 10px 0px;
+        
+    }
+    .package-box {
+        padding-bottom: 15px;
+        display: block;
+        width: 100%;
+    }
+    .container {
+        padding: 0px 15px;
+    }
+    .packages .package-box .left {
+        width: 100%;
+    }
+    .packages .package-box .middle {
+        width: 100%;
+        padding: 15px;
+        margin-top: 18px;
+    }
+    .packages .package-box .right {
+        width: 100%;
+    }
+    .packages .package-box .left img {
+        border-bottom-left-radius: unset;
+        border-top-right-radius: 5px;
+    }
+    .middle small {
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .packages .package-box h3 {
+        font-size: 18px;
+        transform: translateY(-12px);
+    }
+    .packages .package-box .middle ul li {
+        font-size: 13px;
+    }
+    .packages .package-box .right .glbl-btn {
+        width: 80%;
+        font-size: 14px;
+    }
+    .inner-body {
+        padding: 25px 0px;
+    }
+    .inner-body .left {
+        width: 100%;
+    }
+    .accordion-header {
+
+        font-size: 14px;
+    }
+    .accordion-content ul li {
+        font-size: 13px;
+    }
+    .inclusion-exclusion .tabs a {
+   
+        font-size: 13px;
+    }
+    .inclusion-exclusion ul li {
+        font-size: 14px;
+    }
+    .inner-body .right {
+
+        width: 100%;
+    }
+    .inner-body .right .form-body .form-group {
+
+        width: 100%;
+        margin-top: 0;
+    }
+    .contact-form .top h3 {
+
+        font-size: 20px;
+    }
+    .inner-body .right .form-body .form-group input {
+
+        height: 40px;
+    }
+    .about {
+
+        width: 95%;
+    }
+    .about {
+
+        padding: 25px 0px;
+    }
+    .about p{
+        font-size: 15px;
+        color: #6d6d6d;
+    }
+    .banner.inner-banner {
+
+        height: 25vh;
+    }
+    .banner.inner-banner h2 {
+        font-size: 35px;
+    }
+    footer {
+        
+        padding: 30px 0 15px;
+    }
+    
+footer ul li {
+    font-size: 16px;
+}
+footer ul li img {
+    width: 30px;
+}
+.contact .box {
+    margin-bottom: 15px;
+    width: 100%;
+}
+.contact-form .left {
+
+    display: none;
+}
+.contact-form .right {
+    width: 100%;
+}
+.contact-form .right form {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 0;
+}
+.form-group {
+    width: 100%;
+    margin: 5px 15px;
+}
+footer .flex.justify-content{
+    flex-wrap: wrap;
+    flex-direction: column-reverse;
+}
+.packages .package-box .left img {
+
+    height: 270px;
+}
+.package-box {
+    height: auto;
+}
+.packages .package-box .right h5 {
+    font-size: 20px;
+}
+.packages .package-box .right small {
+    font-size: 14px;
+}
+.footer-ul{
+    width: 100%;
+}
+
+.contact-form {
+    margin-bottom: 45px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.popUp-body {
+    padding: 15px;
+}
+.popUp-body form {
+width: 100%;
+}
+.popUp-body .heading img {
+    right: -5px;
+    width: 40px;
+    top: -7px;
+}
+.popUp-body form h2 {
+    font-size: 17px;
+    font-weight: 400;
+}
+/* .popUp-body .form-body {
+    padding: 10px 20px;
+} */
+.form-group input {
+    width: 100%;
+    height: 39px;
+    font-size: 13px;
+}
+.popUp-body .form-body label{
+    display: none;
+}
+.inner-body h2 {
+
+    font-size: 18px;
+}
+footer .whatsapp {
+    right: 80px;
+}
+footer .whatsapp img{
+    width: 60px;
+}
+.review_detail .box {
+    margin-top: 35px;
+    font-size: 15px;
+}
+.inner-body .right .form-body .form-group input {
+
+    margin-bottom: 10px;
+}
+.inner-body .right .form-body .form-group select {
+  
+    margin-bottom: 10px;
+}
+.tab button {
+    margin: 8px 5px;
+    width: 40%;
+    padding: 10px 0px;
+    font-size: 15px;
+}
+.tabcontent {
+    /* display: none; */
+     padding:  0px;
+}
+
+.inner-body .left img {
+
+    height: 225px;
+}
+.meals {
+
+    font-size: 13px;
+}
+.review_detail .box h5 {
+    font-size: 15px;
+}
+.inner-body .right form .textarea textarea {
+
+    margin-top: 0px;
+}
+.contact-form .form-group label{
+    display: none;
+}
+#popUp .for-outer {
+    padding: 0px;
+}
+#popUp .textarea {
+    margin-top: 0px;
+}
+.form-group select {
+ 
+    height: 40px;
+}
+.popUp-body .heading {
+ 
+    margin-bottom: 10px;
+}
+form #submit {
+
+    margin-top: 10px;
+}
+}
